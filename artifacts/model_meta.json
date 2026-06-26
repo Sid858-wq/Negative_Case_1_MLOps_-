@@ -1,0 +1,29 @@
+{
+  "registered_model": "casting_defect_classifier",
+  "run_id": "1b4df7ec51ca4e89894d5b57f829c7aa",
+  "test_metrics": {
+    "accuracy": 0.9315,
+    "precision_defect": 0.9591,
+    "recall_defect": 0.9316,
+    "f1_defect": 0.9451,
+    "macro_f1": 0.9269,
+    "roc_auc": 0.9819,
+    "confusion_matrix": [
+      [
+        244,
+        18
+      ],
+      [
+        31,
+        422
+      ]
+    ],
+    "n": 715
+  },
+  "val_f1_defect": 0.9393,
+  "classes": {
+    "ok_front": 0,
+    "def_front": 1
+  },
+  "img_size": 224
+}

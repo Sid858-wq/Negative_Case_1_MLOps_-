@@ -40,5 +40,4 @@ Thumbs.db
 *.log
 
 # Generated artifacts
-artifacts/model.pt
 artifacts/reference_embeddings.npz
